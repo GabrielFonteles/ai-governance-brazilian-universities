@@ -3,6 +3,9 @@
 
 # Variáveis de ambiente
 .env
+*.env
+.env.*
+secrets.py
 
 # Python
 __pycache__/
@@ -13,13 +16,13 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# Dados brutos e pesados
-dados/brutos/
-*.pdf
-*.csv
-*.xlsx
+# Documentos baixados (binários pesados — gerados pelo notebook)
+data/processed/documentos/
 
-# Outputs
+# Logs gerados automaticamente
+data/processed/log_downloads.csv
+
+# Outputs gerados
 outputs/
 
 # macOS
