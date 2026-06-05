@@ -1,0 +1,26 @@
+# Ambiente virtual
+.venv/
+
+# Variáveis de ambiente
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dados brutos e pesados
+dados/brutos/
+*.pdf
+*.csv
+*.xlsx
+
+# Outputs
+outputs/
+
+# macOS
+.DS_Store

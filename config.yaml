@@ -1,0 +1,16 @@
+projeto:
+  nome: "nome_do_projeto"
+  descricao: ""
+  autor: "Gabriel Fonteles"
+  data_inicio: ""
+
+caminhos:
+  dados_brutos: "dados/brutos/"
+  dados_processados: "dados/processados/"
+  outputs: "outputs/"
+  logs: "logs/"
+
+api:
+  modelo: "claude-sonnet-4-20250514"
+  max_tokens: 1000
+  temperatura: 0
