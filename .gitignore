@@ -18,6 +18,9 @@ __pycache__/
 
 # Documentos baixados (binários pesados — gerados pelo notebook)
 data/processed/documentos/
+data/processed/textos/
+*.numbers
+data/processed/referencias_kwic-nao.csv
 
 # Logs gerados automaticamente
 data/processed/log_downloads.csv
